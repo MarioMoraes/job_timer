@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "557666601154",
+    "project_id": "job-ti",
+    "storage_bucket": "job-ti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557666601154:android:27986c3d8426cc1099d35b",
+        "android_client_info": {
+          "package_name": "com.officesbr.job_timer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557666601154-ij5r41ergvbu4f237870v1kqrf8smivs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.officesbr.job_timer",
+            "certificate_hash": "f165b960d6c1ea22cd02e8ce0fc5aa644f17e6a0"
+          }
+        },
+        {
+          "client_id": "557666601154-pt0r8fpjcsldmhcqtvcnb2d2nninss0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbmyI3-JEeZ2WGnuMHQb4hD_rsPa8W0XM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557666601154-pt0r8fpjcsldmhcqtvcnb2d2nninss0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
