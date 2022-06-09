@@ -16,7 +16,7 @@ class AppUiConfig {
     900: Color(0xFF000000),
   });
 
-  static String get title => 'Timer Job';
+  static String get title => 'Projetos';
 
   static var theme = ThemeData(
     fontFamily: 'Lexend',

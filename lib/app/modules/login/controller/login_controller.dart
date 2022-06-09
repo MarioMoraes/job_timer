@@ -24,4 +24,8 @@ class LoginController extends Cubit<LoginState> {
           message: 'Erro Ao Realizar Login Google'));
     }
   }
+
+  void signOut() async {
+    await _authService.signOut();
+  }
 }
