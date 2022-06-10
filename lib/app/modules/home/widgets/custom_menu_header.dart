@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_modular/flutter_modular.dart';
 import 'package:job_timer/app/entities/project_status.dart';
 
 class CustomMenuHeader extends SliverPersistentHeaderDelegate {
@@ -15,7 +16,7 @@ class CustomMenuHeader extends SliverPersistentHeaderDelegate {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               SizedBox(
-                width: constraints.maxWidth * .4,
+                width: constraints.maxWidth * .5,
                 child: DropdownButtonFormField<ProjectStatus>(
                     decoration: InputDecoration(
                       border: OutlineInputBorder(
@@ -30,7 +31,6 @@ class CustomMenuHeader extends SliverPersistentHeaderDelegate {
                             value: e,
                             child: Text(
                               e.label,
-                              style: const TextStyle(fontSize: 14),
                             ),
                           ),
                         )
@@ -40,7 +40,9 @@ class CustomMenuHeader extends SliverPersistentHeaderDelegate {
               SizedBox(
                 width: constraints.maxWidth * .4,
                 child: ElevatedButton.icon(
-                    onPressed: () {},
+                    onPressed: () {
+                      Modular.to.pushNamed('/project/register');
+                    },
                     icon: const Icon(Icons.add),
                     label: const Text('Novo')),
               )

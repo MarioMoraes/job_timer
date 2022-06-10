@@ -10,6 +10,7 @@ part 'project.g.dart';
 class Project {
   @Id()
   int? id;
+  late int estimate;
 
   late String name;
 

@@ -31,65 +31,7 @@ class HomePage extends StatelessWidget {
             ),
             SliverList(
               delegate: SliverChildListDelegate(
-                [
-                  Container(
-                    height: 200,
-                    color: Colors.deepOrange,
-                  ),
-                  Container(
-                    height: 200,
-                    color: Colors.deepOrange,
-                  ),
-                  Container(
-                    height: 200,
-                    color: Colors.deepOrange,
-                  ),
-                  Container(
-                    height: 200,
-                    color: Colors.deepOrange,
-                  ),
-                  Container(
-                    height: 200,
-                    color: Colors.deepOrange,
-                  ),
-                  Container(
-                    height: 200,
-                    color: Colors.deepOrange,
-                  ),
-                  Container(
-                    height: 200,
-                    color: Colors.deepOrange,
-                  ),
-                  Container(
-                    height: 200,
-                    color: Colors.deepOrange,
-                  ),
-                  Container(
-                    height: 200,
-                    color: Colors.deepOrange,
-                  ),
-                  Container(
-                    height: 200,
-                    color: Colors.deepOrange,
-                  ),
-                  Container(
-                    height: 200,
-                    color: Colors.deepOrange,
-                  ),
-                  Container(
-                    height: 200,
-                    color: Colors.deepOrange,
-                  ),
-                  Container(
-                    height: 200,
-                    color: Colors.deepOrange,
-                  ),
-                  Container(
-                    height: 200,
-                    color: Colors.deepOrange,
-                    child: const Text('End Of File'),
-                  ),
-                ],
+                [],
               ),
             ),
           ],
