@@ -13,6 +13,13 @@ class ProjectServiceImpl implements ProjectService {
 
   @override
   Future<void> register(ProjectModel projectModel) async {
+    /// Outra Maneira de Fazer isso
+    ///
+    /// final project = Project();
+    /// project.id = projectModel.id;
+    /// project.name = projectModel.name;
+    ///
+
     final project = Project()
       ..id = projectModel.id
       ..name = projectModel.name

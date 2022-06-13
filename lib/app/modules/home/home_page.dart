@@ -5,7 +5,7 @@ import 'package:job_timer/app/modules/home/widgets/custom_drawer.dart';
 import 'widgets/custom_menu_header.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
