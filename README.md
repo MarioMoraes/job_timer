@@ -1,4 +1,4 @@
-# :shield: Job Timer
+# :watch: Job Timer
 
 Este projeto consiste em aplicar os conceitos aplicados no Curso Academia do Flutter.
 
