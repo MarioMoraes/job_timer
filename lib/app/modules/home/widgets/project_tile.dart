@@ -96,10 +96,19 @@ class _ProjectProgress extends StatelessWidget {
       child: Row(
         children: [
           Expanded(
-            child: LinearProgressIndicator(
-              value: percent,
-              backgroundColor: Colors.grey[400]!,
-              color: Theme.of(context).primaryColor,
+            child: TweenAnimationBuilder<double>(
+              builder: (context, value, child) {
+                return LinearProgressIndicator(
+                  value: value,
+                  backgroundColor: Colors.grey[400]!,
+                  color: Colors.blue,
+                );
+              },
+              duration: const Duration(seconds: 2),
+              tween: Tween(
+                begin: 0.0,
+                end: percent,
+              ),
             ),
           ),
           Padding(
